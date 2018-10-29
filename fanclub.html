@@ -1,0 +1,225 @@
+ <!doctype html>
+    <html lang="fr">
+		
+        <head>
+            <title>World of Sangoku</title>
+            <meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="stylefanclub.css">
+			<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+        </head>
+		
+        <body>
+			
+			<header> 
+			
+			<div id="navback">
+			
+								
+																
+						<a href="index.html"> <img id="logogoku" src="Images/gokulogo.png" alt="Logosangokupetit"> </a>
+						
+						
+			<nav id="menu">
+				<ul> 
+			
+						<li id="accueil">
+						<p> <a href="index.html"> Accueil </a> </p>
+						</li>
+			
+			
+						<li id="biographie">
+						<p> <a href="biographie.html"> Biographie </a> </p>
+						</li>
+			
+			
+						<li id="exploits">
+						<p> <a href="realisations.html"> Réalisations </a> </p>
+						</li>
+			
+		
+						<li id="galeriephoto">
+						<p> <a href="galeriephoto.html"> Galerie photo </a> </p>
+						</li>
+						
+			
+			
+						<li id="fanclub">
+						<p> <a href="fanclub.html"> Fan club </a> </p>
+						</li>
+			
+				</ul>
+			
+			</nav>
+			
+			<a href="https://twitter.com/DBSuperFrance"> <img id="logotwitter" src="Images/logotwitter5.png" alt="Logotwitter"> </a>
+			
+			<a href="https://www.facebook.com/dbzzz.fanclub"> <img id="logofacebook" src="Images/logofacebook5.png" alt="LogoFacebook"> </a>
+		
+		
+			</div>
+			
+									
+			</header>
+			
+			
+			<div id="posfanclub">
+			
+			<img id="gokufanclub" src="Images/gokufanclub.png" alt="GokuFanClub">
+			
+			
+							
+		
+			<form action="traitement.php" method="post">
+						
+				
+				<h1>Formulaire d'inscription au fan club</h1>
+  
+				<div id="txtfanclub"> Rejoins notre fan club si tu veux recevoir des actualités par mail et avoir des privilèges dans notre chatbox ! </div>
+  
+					<p>Les champs obligatoires sont suivis par <strong><abbr title="obligatoire">*</abbr></strong></p>
+  
+ 
+			<section>
+				
+				<h2>Information de contact</h2>
+ 
+				<fieldset>
+				
+				<legend>Informations personnelles</legend>
+				
+					<ul>
+					
+						<li> 						
+							<label for="nom"> Nom </label>
+							<input type="text" name="nom">													
+					
+						</li>
+						
+						<li>						
+							<label for="prenom"> Prénom </label>
+							<input type="text" name="prenom">									
+						</li>
+						
+						<li>
+							<label for="date"> Date de naissance </label>		
+							<input type="date">
+						</li>
+						
+						<li>
+							<label for="pays"> Pays </label>
+							<input type="text" name="pays">
+						</li>
+							
+					</ul>
+				</fieldset>
+ 
+			<br>
+ 
+				<fieldset>
+				
+				<legend>Identifiants</legend>
+ 
+					<p>
+						<label for="password">
+						<span>Courriel&nbsp;:</span>
+						<input type="email" id="courriel" name="courrielutilisateur" required />
+						<strong><abbr title="required">*</abbr></strong>
+						</label>
+					</p>
+  
+					<p>
+						<label for="password">
+						<span>Mot de passe&nbsp;:</span>
+						<input type="password" id="mdp" name="motdepasse" required />
+						<strong><abbr title="obligatoire">*</abbr></strong>
+						</label>
+					</p>
+  
+					<p>
+						<label for="nom">
+						<span>Vérification mot de passe&nbsp;:</span>
+						<input type="password" id="mdp" name="confirmationmotdepasse" required />
+						<strong><abbr title="obligatoire">*</abbr></strong>
+						</label>
+					</p>
+					
+				</fieldset>
+				
+			</section>
+ 
+				
+ 
+			<section>
+
+				<h2> Le manga </h2>
+							
+				<h4> Votre Dragon Ball favori </h4>
+																		
+								
+					<p>
+						Dragon Ball <input type="radio" name="dbfavori" value="DB"> 
+									
+						Dragon Ball Z <input type="radio" name="dbfavori" value="DBZ"> 
+									
+						Dragon Ball GT <input type="radio" name="dbfavori" value="DBGT"> 
+									
+						Dragon Ball Super <input type="radio" name="dbfavori" value="DBS"> 
+					</p>
+									
+																														
+				<h4> Votre ou vos personnages préféré(s) </h4>
+								
+								
+					<p>
+						Goku <input type="radio"> 
+								
+						Vegeta <input type="radio"> 
+								
+						Bulma <input type="radio"> 
+								
+						Krilin <input type="radio"> 
+								
+						Gohan <input type="radio"> 
+								
+						Trunks <input type="radio"> 
+								
+						Tortue Géniale <input type="radio"> 
+									
+						Piccolo <input type="radio"> 
+					<br>
+						<label for="inputautre"> Autre(s) (préciser) </label>
+						<input type="text" name="autre">
+					</p>
+									
+			</section>
+ 
+			<section>
+ 
+					<label for="comment"> <strong> Commentaire </strong> </label>
+				<br>
+					<textarea name="comment"> </textarea>
+
+								
+			</section>											
+							
+
+								
+	
+								
+								
+									
+ 
+			<section>
+			
+					<p>
+						<input id="button" type="submit" name="nom" value="Confirmer l'inscription">
+					</p>
+					
+			</section>
+			
+			
+			</form>
+			
+			</div>
+			
+			</body>
